@@ -212,7 +212,7 @@ class Dom {
 	 *
 	 * @param string $selector
 	 * @param int $nth
-	 * @return array
+	 * @return AbstractNode[]
 	 */
 	public function find($selector, $nth = null)
 	{
